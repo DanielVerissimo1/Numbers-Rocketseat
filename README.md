@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  <img width="41" height="32" alt="logo" src="https://github.com/user-attachments/assets/545dc5a4-68bb-49d9-be54-e4520c820b66" />
+  <img width="42" height="42" alt="logo" src="https://github.com/user-attachments/assets/545dc5a4-68bb-49d9-be54-e4520c820b66" />
   <br>
   Numbers
   <p>

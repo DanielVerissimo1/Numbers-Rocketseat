@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Numbers</title>
+</head>
+
+<body>
+    <header id="logo">
+        <img src="./assets/logo.png" alt="" aria-hidden="true" />
+        <h2>Numbers</h2>
+    </header>
+
+    <main>
+        <section id="section-title" aria-labelledby="info-title" class="info-hero">
+            <p class="overline">Online · gratuito</p>
+            <h1 id="info-title" class="display-lg">
+                Sorteador de números
+            </h1>
+        </section>
+
+        <section id="section-form" aria-describedby="form-description" aria-labelledby="form-title">
+            <div id="content-form" class="content">
+                <header>
+                    <h3 id="form-title" class="label-md">
+                        Quero sortear:
+                    </h3>
+                    <p class="text-lg" id="form-description">
+                        defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela.
+                        É
+                        rápido e fácil!
+                    </p>
+                </header>
+
+                <form>
+                    <div id="section-inputs">
+                        <label for="quantity-numbers" class="label-sm label-form">
+                            Números
+                            <input maxlength="1" pattern="[1-9]*" required inputmode="numeric" name="quantity-numbers"
+                                type="text" id="quantity-numbers" class="gradient-border display-sm input-form" />
+                        </label>
+                        <label for="min-number" class="label-sm label-form">
+                            DE
+                            <input maxlength="3" pattern="[0-9]*" required inputmode="numeric" name="min-number"
+                                type="text" id="min-number" class="gradient-border display-sm input-form" />
+                        </label>
+                        <label for="max-number" class="label-sm label-form">
+                            ATÉ
+                            <input maxlength="3" pattern="[0-9]*" required inputmode="numeric" name="max-number"
+                                type="text" id="max-number" class="gradient-border display-sm input-form" />
+                        </label>
+                    </div>
+
+                    <div id="div-radio">
+                        <label class="switch">
+                            <input name="not-repeat" id="not-repeat" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <label for="not-repeat" class="text-sm">
+                            Não repetir número
+                        </label>
+                    </div>
+
+                    <button type="submit" class="label-sm button-form gradient-border">
+                        SORTEAR <img id="arrow-img" src="./assets/arrow.png" alt="" aria-hidden="true" />
+                    </button>
+                </form>
+            </div>
+
+            <div id="content-result" class="content hidden">
+                <header>
+                    <h3 id="result-title" class="label-md">
+                        Resultado do sorteio
+                    </h3>
+                    <p class="overline" id="result-count">
+                    </p>
+                </header>
+
+                <ul id="results" aria-live="polite"></ul>
+
+                <button type="button" id="draw-again" class="label-sm button-form gradient-border hidden">
+                    SORTEAR NOVAMENTE <img id="arrow-img" src="./assets/again.png" alt="" aria-hidden="true" />
+                </button>
+            </div>
+        </section>
+
+        <section class="info-about">
+            <article>
+                <header>
+                    <img src="./assets/avatar.png" alt="" aria-hidden="true">
+                    <h4 class="text-md">Como funciona o sorteador de números?</h4>
+                </header>
+                <p class="text-sm">
+                    O sorteador utiliza um algoritmo de geração aleatória para criar números
+                    dentro do intervalo especificado pelo usuário.
+                </p>
+            </article>
+
+            <article>
+                <header>
+                    <img src="./assets/avatar.png" alt="" aria-hidden="true">
+                    <h4 class="text-md">Posso escolher o intervalo dos números?</h4>
+                </header>
+                <p class="text-sm">
+                    Sim, você pode definir os valores mínimo e máximo para o intervalo dos
+                    números sorteados.
+                </p>
+            </article>
+        </section>
+    </main>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js" defer></script>
+    <script type="module" src="./js/main.js" defer></script>
+
+</body>
+
+</html>

@@ -1,13 +1,12 @@
-<h1 align="center"> 
-  <img width="42" height="42" alt="logo" src="https://github.com/user-attachments/assets/545dc5a4-68bb-49d9-be54-e4520c820b66" />
-  <br>
-  Numbers
-  <p>
-    <img src="https://img.shields.io/github/last-commit/DanielVerissimo1/Numbers-Rocketseat?style=for-the-badge&logo=git&logoColor=white&color=6B73FF" alt="Last Commit">
-    <img src="https://img.shields.io/github/languages/top/DanielVerissimo1/Numbers-Rocketseat?style=for-the-badge&color=6B73FF" alt="Top Language">
-    <img src="https://img.shields.io/github/languages/count/DanielVerissimo1/Numbers-Rocketseat?style=for-the-badge&color=000DFF" alt="Languages Count">
-  </p>
-</h1>
+<div align="center">
+<img width="42" height="42" alt="logo" src="https://github.com/user-attachments/assets/545dc5a4-68bb-49d9-be54-e4520c820b66" />
+<h1>Numbers</h1>
+<p>
+  <img src="https://img.shields.io/github/last-commit/DanielVerissimo1/Numbers-Rocketseat?style=for-the-badge&logo=git&logoColor=white&color=6B73FF" />
+  <img src="https://img.shields.io/github/languages/top/DanielVerissimo1/Numbers-Rocketseat?style=for-the-badge&color=6B73FF" />
+  <img src="https://img.shields.io/github/languages/count/DanielVerissimo1/Numbers-Rocketseat?style=for-the-badge&color=000DFF" />
+</p>
+</div>
 
 **Numbers** é um desafio do curso de **JavaScript - Rocketseat**, nesse desafio é necessário desenvolver um site simples para geração de números aleatórios dentro de um intervalo definido pelo usuário, com a opção de evitar repetições e com feedback visual animado dos resultados.
 
